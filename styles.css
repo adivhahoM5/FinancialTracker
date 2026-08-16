@@ -1,0 +1,50 @@
+.top{
+    width: 100%;
+    padding: 15px 20px;
+}
+.wrapper{
+    display: flex;
+    height: calc(100vh-60px);
+}
+body{
+   
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+.display{
+    flex: 1;
+    padding: 20px;
+    background:whites;
+}
+.nav{
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-right: 2px solid rgb(190, 187, 187);
+}
+.theme1{
+   text-align: left;
+}
+.photo{
+    border-radius: 300px;
+    box-shadow: 20px;
+}
+.theme2{
+    display: flex;
+    gap: 100px;
+    flex-wrap:wrap ;
+}
+.cardMain{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300;
+    height: 100;
+    border-color: black;
+    padding: 12px;
+    background-color:whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 300px;
+}
