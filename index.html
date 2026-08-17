@@ -21,24 +21,24 @@
             <h2>Quick Actions</h2>
             <hr>
 
-            <button>New Income</button>
-            <button>New Expenses</button>
-            <button>New Transfer</button>
+            <button onclick="showIncome()">New Income</button>
+            <button onclick="showExpenses()">New Expenses</button>
+            <button onclick="showTransfer()">New Transfer</button>
 
             <h2>Navigation</h2>
             <hr>
 
             <a href="#dashboard">Dashboard</a>
             <a href="#accounts">Accounts</a>
-            <a href="#categories">Categories</a>
-            <a href="#incomes">Incomes</a>
-            <a href="#expenses">Expenses</a>
+            <a href="#categories">Track Categories</a>
+            <a href="#incomes">Track Incomes</a>
+            <a href="#expenses">Track Expenses</a>
 
         </div>
 
 
         <!-- Main Content -->
-        <div class="display">
+        <div class="display" id = "display">
 
             <h3>Accounts</h3>
 
@@ -79,11 +79,35 @@
                 </tbody>
 
             </table>
+              <br>
+<h3>Budget</h3>
+<br>
+
+<div class="div" style="display: flex; flex-wrap: wrap; gap: 40px;">
+
+            <span class="cardb">  Housing </span>
+            <span class="cardb">    Transport </span>
+            <span class="cardb">Communication</span>
+            <span class="cardb"> Groceries</span>
+            <span class="cardb"> Fees</span>
+            <span class="cardb">Insurance</span>
+            <span class="cardb">Dinning Out</span>
+            <span class="cardb">Entertainment</span>
+            <span class="cardb">Savings</span>
+            <span class="cardb">Other</span>
+
+    
+        
+    </span>
+
+</div>
+
 
         </div>
+        
 
     </div>
-
+  
 </body>
-
+<script src="script.js"></script>
 </html>
