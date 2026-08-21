@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adivh\\Documents\\MULAUDZI\\2026 ACADEMIC YEAR\\CMPG323\\Frontend\\Financial Tracker\\FinancialTrackerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E3FE1D-B92A-46F8-AFC7-B3EACE8F428C}|FinancialTrackerAPI.csproj|c:\\users\\adivh\\documents\\mulaudzi\\2026 academic year\\cmpg323\\frontend\\financial tracker\\financialtrackerapi\\models\\expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E3FE1D-B92A-46F8-AFC7-B3EACE8F428C}|FinancialTrackerAPI.csproj|solutionrelative:models\\expenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E3FE1D-B92A-46F8-AFC7-B3EACE8F428C}|FinancialTrackerAPI.csproj|c:\\users\\adivh\\documents\\mulaudzi\\2026 academic year\\cmpg323\\frontend\\financial tracker\\financialtrackerapi\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E3FE1D-B92A-46F8-AFC7-B3EACE8F428C}|FinancialTrackerAPI.csproj|solutionrelative:models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expenses.cs",
+              "DocumentMoniker": "C:\\Users\\adivh\\Documents\\MULAUDZI\\2026 ACADEMIC YEAR\\CMPG323\\Frontend\\Financial Tracker\\FinancialTrackerAPI\\Models\\Expenses.cs",
+              "RelativeDocumentMoniker": "Models\\Expenses.cs",
+              "ToolTip": "C:\\Users\\adivh\\Documents\\MULAUDZI\\2026 ACADEMIC YEAR\\CMPG323\\Frontend\\Financial Tracker\\FinancialTrackerAPI\\Models\\Expenses.cs",
+              "RelativeToolTip": "Models\\Expenses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T05:12:48.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Income.cs",
+              "DocumentMoniker": "C:\\Users\\adivh\\Documents\\MULAUDZI\\2026 ACADEMIC YEAR\\CMPG323\\Frontend\\Financial Tracker\\FinancialTrackerAPI\\Models\\Income.cs",
+              "RelativeDocumentMoniker": "Models\\Income.cs",
+              "ToolTip": "C:\\Users\\adivh\\Documents\\MULAUDZI\\2026 ACADEMIC YEAR\\CMPG323\\Frontend\\Financial Tracker\\FinancialTrackerAPI\\Models\\Income.cs",
+              "RelativeToolTip": "Models\\Income.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T05:08:41.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
