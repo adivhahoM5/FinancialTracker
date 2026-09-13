@@ -99,7 +99,6 @@ INSERT INTO users (name, email, password_hash) VALUES
 INSERT INTO account (user_id, bank_name, account_type, balance) VALUES
 (1, 'Capitec', 'Savings', 15000),
 (1, 'FNB', 'Cheque', 5000),
-(2, 'ABSA', 'Savings', 22000),
 (3, 'Standard Bank', 'Savings', 8000),
 (4, 'Nedbank', 'Savings', 30000),
 (4, 'Capitec', 'Cheque', 12000);
@@ -152,4 +151,5 @@ INSERT INTO expense (transaction_id, expense_type_id, amount, date_incurred) VAL
 INSERT INTO transfer (from_account_id, to_account_id, amount, transfer_date, note) VALUES
 (1, 2, 2000, '2026-02-20', 'Move to cheque'), (5, 6, 5000, '2026-04-15', 'Savings transfer'), (1, 2, 1500, '2026-05-25', 'Monthly transfer');
 SELECT * FROM users;
+SELECT * FROM account;
 
