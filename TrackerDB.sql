@@ -140,7 +140,7 @@ INSERT INTO transaction (account_id, transaction_type, amount, transaction_date,
 
 INSERT INTO income (transaction_id, income_type_id, amount, date_received) VALUES 
 (19, 1, 16000, '2026-04-05'), (21, 1, 20000, '2026-04-05'), (23, 5, 35000, '2026-04-05'),
-(25, 1, 16000, '2026-05-05'), (28, 1, 8500, '2026-05-01'), (29, 5, 30000, '2026-05-05'),s
+(25, 1, 16000, '2026-05-05'), (28, 1, 8500, '2026-05-01'), (29, 5, 30000, '2026-05-05'),
 (31, 1, 16000, '2026-06-05'), (32, 1, 22000, '2026-06-05');
 
 INSERT INTO expense (transaction_id, expense_type_id, amount, date_incurred) VALUES
@@ -152,3 +152,4 @@ INSERT INTO expense (transaction_id, expense_type_id, amount, date_incurred) VAL
 INSERT INTO transfer (from_account_id, to_account_id, amount, transfer_date, note) VALUES
 (1, 2, 2000, '2026-02-20', 'Move to cheque'), (5, 6, 5000, '2026-04-15', 'Savings transfer'), (1, 2, 1500, '2026-05-25', 'Monthly transfer');
 SELECT * FROM users;
+
