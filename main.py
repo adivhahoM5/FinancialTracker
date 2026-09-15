@@ -20,6 +20,11 @@ class Account(BaseModel):
 class uAccount(BaseModel):
     bank_name: str   
 
+class Transfer(BaseModel):
+    account_id:float
+    name:str
+    amount:float
+    
 def get_DB():
     return psycopg2.connect(
         host="localhost",
@@ -29,7 +34,10 @@ def get_DB():
         port="5432",
         cursor_factory=RealDictCursor
     )
+@app.patch("/transfer/{account_id}")
+def transfer_money(account_id:int,a:Account):
 
+    
 @app.post("/user")
 def register_acc(u: User):
     try:
@@ -96,6 +104,7 @@ def delete_acc(account_id:int):
      cur.close()
      conn.close()
      return {"message": "Account deleted successfully"}
+
 
 #uvicorn main:app --reload
 
